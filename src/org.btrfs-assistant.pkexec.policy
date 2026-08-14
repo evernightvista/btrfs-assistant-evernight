@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD polkit Policy Configuration 1.0//EN"
+"http://www.freedesktop.org/software/polkit/policyconfig-1.dtd">
+<policyconfig>
+
+  <vendor>btrfs-assistant</vendor>
+  <vendor_url>https://gitlab.com/btfrs-assistant/btfrs-assistant</vendor_url>
+
+  <action id="org.btfrs-assistant.pkexec.policy.run">
+    <description>Run BTRFS Assistant</description>
+    <description xml:lang="zh-Hans-CN">运行 Btrfs 助手</description>
+    <description xml:lang="zh-Hant-TW">執行 Btrfs 助手</description>
+    <description xml:lang="ja">Btrfs アシスタントを実行</description>
+    <description xml:lang="ko">Btrfs 어시스턴트 실행</description>
+    <description xml:lang="fr">Exécuter Assistant Btrfs</description>
+    <description xml:lang="de">Btrfs-Assistent ausführen</description>
+    <message>Authentication is required to run Btrfs Assistant</message>
+    <message xml:lang="zh-Hans-CN">运行 Btrfs 助手需要身份验证</message>
+    <message xml:lang="zh-Hant-TW">執行 Btrfs 助手需要身分驗證</message>
+    <message xml:lang="ja">Btrfs アシスタントを実行するには認証が必要です</message>
+    <message xml:lang="ko">Btrfs 어시스턴트를 실행하려면 인증이 필요합니다</message>
+    <message xml:lang="fr">Une authentification est requise pour exécuter Assistant Btrfs</message>
+    <message xml:lang="de">Authentifizierung ist erforderlich, um den Btrfs-Assistenten auszuführen</message>
+    <icon_name>btrfs-assistant</icon_name> 
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/btrfs-assistant</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+</policyconfig>

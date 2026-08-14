@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Btrfs Assistant
+Name[zh_CN]=Btrfs 助手
+Name[zh_TW]=Btrfs 助手
+Name[ja]=Btrfs アシスタント
+Name[ko]=Btrfs 어시스턴트
+Name[fr]=Assistant Btrfs
+Name[de]=Btrfs-Assistent
+Comment=Change system settings
+Comment[zh_CN]=更改系统设置
+Comment[zh_TW]=變更系統設定
+Comment[ja]=システム設定を変更
+Comment[ko]=시스템 설정 변경
+Comment[fr]=Modifier les paramètres système
+Comment[de]=Systemeinstellungen ändern
+Exec=btrfs-assistant-launcher
+Terminal=false
+Type=Application
+Icon=btrfs-assistant
+Categories=System
+NoDisplay=false

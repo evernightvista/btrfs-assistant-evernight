@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>btrfs-assistant.desktop</id>
+  <launchable type="desktop-id">btrfs-assistant.desktop</launchable>
+
+  <name>Btrfs Assistant</name>
+  <name xml:lang="zh-Hans-CN">Btrfs 助手</name>
+  <name xml:lang="zh-Hant-TW">Btrfs 助手</name>
+  <name xml:lang="ja">Btrfs アシスタント</name>
+  <name xml:lang="ko">Btrfs 어시스턴트</name>
+  <name xml:lang="fr">Assistant Btrfs</name>
+  <name xml:lang="de">Btrfs-Assistent</name>
+  <summary>GUI management tool to make managing a Btrfs filesystem easier</summary>
+  <summary xml:lang="zh-Hans-CN">让 Btrfs 文件系统管理更加简单的图形管理工具</summary>
+  <summary xml:lang="zh-Hant-TW">讓 Btrfs 檔案系統管理更加簡單的圖形管理工具</summary>
+  <summary xml:lang="ja">Btrfs ファイルシステムの管理を簡単にする GUI 管理ツール</summary>
+  <summary xml:lang="ko">Btrfs 파일 시스템 관리를 더 쉽게 만들어주는 GUI 관리 도구</summary>
+  <summary xml:lang="fr">Outil de gestion graphique pour faciliter la gestion d'un système de fichiers Btrfs</summary>
+  <summary xml:lang="de">Grafisches Verwaltungstool zur vereinfachten Verwaltung von Btrfs-Dateisystemen</summary>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <description>
+    <p>
+      Btrfs Assistant is a GUI management tool to make managing a Btrfs filesystem easier.
+    </p>
+    <p xml:lang="zh-Hans-CN">Btrfs 助手是一款图形管理工具，可让 Btrfs 文件系统管理更加简单。</p>
+    <p xml:lang="zh-Hant-TW">Btrfs 助手是一款圖形管理工具，可讓 Btrfs 檔案系統管理更加簡單。</p>
+    <p xml:lang="ja">Btrfs アシスタントは、Btrfs ファイルシステムの管理を簡単にする GUI 管理ツールです。</p>
+    <p xml:lang="ko">Btrfs 어시스턴트는 Btrfs 파일 시스템 관리를 더 쉽게 만들어주는 GUI 관리 도구입니다.</p>
+    <p xml:lang="fr">Assistant Btrfs est un outil de gestion graphique pour faciliter la gestion d'un système de fichiers Btrfs.</p>
+    <p xml:lang="de">Btrfs-Assistent ist ein grafisches Verwaltungstool zur vereinfachten Verwaltung von Btrfs-Dateisystemen.</p>
+    <p>The primary features it offers are:</p>
+    <p xml:lang="zh-Hans-CN">主要功能包括：</p>
+    <p xml:lang="zh-Hant-TW">主要功能包括：</p>
+    <p xml:lang="ja">主な機能は以下の通りです：</p>
+    <p xml:lang="ko">주요 기능은 다음과 같습니다:</p>
+    <p xml:lang="fr">Les principales fonctionnalités offertes sont :</p>
+    <p xml:lang="de">Die wichtigsten Funktionen sind:</p>
+    <ul>
+      <li>An easy to read overview of Btrfs metadata</li>
+      <li xml:lang="zh-Hans-CN">清晰易读的 Btrfs 元数据概览</li>
+      <li xml:lang="zh-Hant-TW">清晰易讀的 Btrfs 中繼資料概覽</li>
+      <li xml:lang="ja">読みやすい Btrfs メタデータの概要</li>
+      <li xml:lang="ko">읽기 쉬운 Btrfs 메타데이터 개요</li>
+      <li xml:lang="fr">Un aperçu lisible des métadonnées Btrfs</li>
+      <li xml:lang="de">Eine übersichtliche Darstellung der Btrfs-Metadaten</li>
+      <li>A simple view of subvolumes with or without Snapper/Timeshift snapshots</li>
+      <li xml:lang="zh-Hans-CN">简明查看子卷以及 Snapper/Timeshift 快照</li>
+      <li xml:lang="zh-Hant-TW">簡明查看子卷以及 Snapper/Timeshift 快照</li>
+      <li xml:lang="ja">Snapper/Timeshift スナップショットの有無を問わないサブボリュームのシンプルな表示</li>
+      <li xml:lang="ko">Snapper/Timeshift 스냅샷 유무와 관계없는 하위 볼륨의 간단한 보기</li>
+      <li xml:lang="fr">Une vue simple des sous-volumes avec ou sans instantanés Snapper/Timeshift</li>
+      <li xml:lang="de">Eine einfache Ansicht von Subvolumes mit oder ohne Snapper/Timeshift-Snapshots</li>
+      <li>Run and monitor scrub and balance operations</li>
+      <li xml:lang="zh-Hans-CN">运行并监控校验（Scrub）和均衡（Balance）操作</li>
+      <li xml:lang="zh-Hant-TW">執行並監控校驗（Scrub）和平衡（Balance）操作</li>
+      <li xml:lang="ja">スクラブとバランス操作の実行と監視</li>
+      <li xml:lang="ko">스크럽 및 밸런스 작업 실행 및 모니터링</li>
+      <li xml:lang="fr">Exécuter et surveiller les opérations de scrub et d'équilibrage</li>
+      <li xml:lang="de">Scrub- und Balance-Operationen ausführen und überwachen</li>
+      <li>A pushbutton method for removing subvolumes</li>
+      <li xml:lang="zh-Hans-CN">一键删除子卷</li>
+      <li xml:lang="zh-Hant-TW">一鍵刪除子卷</li>
+      <li xml:lang="ja">ワンクリックでサブボリュームを削除</li>
+      <li xml:lang="ko">원클릭으로 하위 볼륨 삭제</li>
+      <li xml:lang="fr">Une méthode par bouton pour supprimer les sous-volumes</li>
+      <li xml:lang="de">Eine Ein-Klick-Methode zum Entfernen von Subvolumes</li>
+      <li>A management front-end for Snapper with enhanced restore functionality</li>
+      <li xml:lang="zh-Hans-CN">提供增强快照恢复功能的 Snapper 管理前端</li>
+      <li xml:lang="zh-Hant-TW">提供增強快照還原功能的 Snapper 管理前端</li>
+      <li xml:lang="ja">拡張されたスナップショット復元機能を備えた Snapper 管理フロントエンド</li>
+      <li xml:lang="ko">향상된 스냅샷 복원 기능을 갖춘 Snapper 관리 프론트엔드</li>
+      <li xml:lang="fr">Une interface de gestion pour Snapper avec des fonctionnalités de restauration améliorées</li>
+      <li xml:lang="de">Ein Verwaltungs-Frontend für Snapper mit erweiterter Wiederherstellungsfunktionalität</li>
+      <li>A front-end for Btrfs Maintenance</li>
+      <li xml:lang="zh-Hans-CN">Btrfs Maintenance 前端</li>
+      <li xml:lang="zh-Hant-TW">Btrfs Maintenance 前端</li>
+      <li xml:lang="ja">Btrfs Maintenance のフロントエンド</li>
+      <li xml:lang="ko">Btrfs Maintenance 프론트엔드</li>
+      <li xml:lang="fr">Une interface pour Btrfs Maintenance</li>
+      <li xml:lang="de">Ein Frontend für Btrfs Maintenance</li>
+    </ul>
+  </description>
+
+  <url type="homepage">https://gitlab.com/btrfs-assistant/btrfs-assistant</url>
+  <url type="bugtracker">https://gitlab.com/btrfs-assistant/btrfs-assistant/-/issues</url>
+  <url type="help">https://gitlab.com/btrfs-assistant/wiki/-/wikis/home</url>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://gitlab.com/btrfs-assistant/btrfs-assistant/uploads/21da59577c3e8a101347cf0d59569c09/image.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.com/btrfs-assistant/btrfs-assistant/uploads/41aa431b6a0de85bc70b84d90da392ea/image.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.com/btrfs-assistant/btrfs-assistant/uploads/65b6004c3257d66154828259a0fed47d/image.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1" />
+</component>

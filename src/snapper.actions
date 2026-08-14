@@ -1,0 +1,3 @@
+pre_transaction::::/usr/bin/sh -c echo\ "tmp.cmd=$(ps\ -o\ command\ --no-headers\ -p\ '${pid}')"
+pre_transaction::::/usr/bin/sh -c echo\ "tmp.snapper_pre=$(snapper\ -c\ root\ create\ -c\ number\ -t\ pre\ -p\ -d\ '${tmp.cmd}')"
+post_transaction::::/usr/bin/sh -c [\ -n\ "${tmp.snapper_pre}"\ ]\ &&\ snapper\ -c\ root\ create\ -c\ number\ -t\ post\ --pre-number\ "${tmp.snapper_pre}"\ -d\ "${tmp.cmd}"
