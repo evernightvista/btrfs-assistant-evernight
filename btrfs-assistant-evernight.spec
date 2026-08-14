@@ -12,11 +12,14 @@ BuildRequires:  gcc-c++
 BuildRequires:  qt6-qtbase-devel
 BuildRequires:  qt6-linguist
 BuildRequires:  btrfs-progs-devel
+BuildRequires:  desktop-file-utils
+BuildRequires:  gtk3
 
 Requires:       snapper
 Requires:       btrfs-progs
 Requires:       polkit
 Requires:       qt6-qtbase-gui
+Requires:       libdnf5-plugin-actions
 
 Recommends:     btrfsmaintenance
 
@@ -58,6 +61,7 @@ install -D -m 644 src/snapper.actions \
 %dir %{_datadir}/btrfs-assistant
 %dir %{_datadir}/btrfs-assistant/translations
 %{_datadir}/btrfs-assistant/translations/*.qm
+%{_datadir}/btrfs-assistant/translations/*.ts
 %{_datadir}/applications/btrfs-assistant.desktop
 %{_datadir}/metainfo/btrfs-assistant.metainfo.xml
 %{_datadir}/polkit-1/actions/org.btrfs-assistant.pkexec.policy
@@ -77,7 +81,7 @@ if [ $1 -eq 0 ] ; then
 fi
 
 %changelog
-* Fri Aug 15 2026 Evernight <evernight@example.com> - 2.2-1
+* Sat Aug 15 2026 Evernight Vista Team <13278297951@sina.cn> - 2.2-1
 - Repackaged as btrfs-assistant-evernight
 - Added translations: Japanese, Korean, French, German, Traditional Chinese
 - Added snapper.actions for dnf5 pre/post transaction snapshots

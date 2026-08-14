@@ -6,7 +6,7 @@
     <message>
         <location filename="../src/util/Btrfs.cpp" line="115"/>
         <source>Failed to create the snapshot</source>
-        <translation>Échec de la création de l'instantané</translation>
+        <translation>Échec de la création de l&apos;instantané</translation>
     </message>
     <message>
         <location filename="../src/util/Btrfs.cpp" line="380"/>
@@ -26,7 +26,7 @@
     <message>
         <location filename="../src/util/Btrfs.cpp" line="429"/>
         <source>Snapshot restore failed.  Please verify the status of your system before rebooting</source>
-        <translation>La restauration de l'instantané a échoué. Veuillez vérifier l'état de votre système avant de redémarrer</translation>
+        <translation>La restauration de l&apos;instantané a échoué. Veuillez vérifier l&apos;état de votre système avant de redémarrer</translation>
     </message>
     <message>
         <location filename="../src/util/Btrfs.cpp" line="444"/>
@@ -60,7 +60,7 @@
     <message>
         <location filename="../src/util/BtrfsStatus.cpp" line="22"/>
         <source>running</source>
-        <translation>en cours d'exécution</translation>
+        <translation>en cours d&apos;exécution</translation>
     </message>
     <message>
         <location filename="../src/util/BtrfsStatus.cpp" line="25"/>
@@ -160,7 +160,7 @@
     <message>
         <location filename="../src/util/BtrfsStatus.cpp" line="79"/>
         <source>malloc_errors:</source>
-        <translation>erreurs d'allocation mémoire :</translation>
+        <translation>erreurs d&apos;allocation mémoire :</translation>
     </message>
     <message>
         <location filename="../src/util/BtrfsStatus.cpp" line="80"/>
@@ -175,17 +175,17 @@
     <message>
         <location filename="../src/util/BtrfsStatus.cpp" line="111"/>
         <source>No balance operation found on %1</source>
-        <translation>Aucune opération d'équilibrage trouvée sur %1</translation>
+        <translation>Aucune opération d&apos;équilibrage trouvée sur %1</translation>
     </message>
     <message>
         <location filename="../src/util/BtrfsStatus.cpp" line="116"/>
         <source>Balance operation on %1 is running</source>
-        <translation>L'opération d'équilibrage sur %1 est en cours</translation>
+        <translation>L&apos;opération d&apos;équilibrage sur %1 est en cours</translation>
     </message>
     <message>
         <location filename="../src/util/BtrfsStatus.cpp" line="121"/>
         <source>Balance operation on %1 is paused</source>
-        <translation>L'opération d'équilibrage sur %1 est en pause</translation>
+        <translation>L&apos;opération d&apos;équilibrage sur %1 est en pause</translation>
     </message>
     <message>
         <location filename="../src/util/BtrfsStatus.cpp" line="126"/>
@@ -209,12 +209,12 @@
     <message>
         <location filename="../src/ui/Cli.cpp" line="61"/>
         <source>Failed to parse snapshot list</source>
-        <translation>Échec de l'analyse de la liste des instantanés</translation>
+        <translation>Échec de l&apos;analyse de la liste des instantanés</translation>
     </message>
     <message>
         <location filename="../src/ui/Cli.cpp" line="69"/>
         <source>This is not a snapshot that can be restored by this application</source>
-        <translation>Ceci n'est pas un instantané qui peut être restauré par cette application</translation>
+        <translation>Ceci n&apos;est pas un instantané qui peut être restauré par cette application</translation>
     </message>
     <message>
         <location filename="../src/ui/Cli.cpp" line="78"/>
@@ -224,7 +224,7 @@
     <message>
         <location filename="../src/ui/Cli.cpp" line="83"/>
         <source>Snapshot subvolume not found</source>
-        <translation>Sous-volume de l'instantané introuvable</translation>
+        <translation>Sous-volume de l&apos;instantané introuvable</translation>
     </message>
     <message>
         <location filename="../src/ui/Cli.cpp" line="92"/>
@@ -234,17 +234,17 @@
     <message>
         <location filename="../src/ui/Cli.cpp" line="96"/>
         <source>Restoring snapshot %1</source>
-        <translation>Restauration de l'instantané %1</translation>
+        <translation>Restauration de l&apos;instantané %1</translation>
     </message>
     <message>
         <location filename="../src/ui/Cli.cpp" line="103"/>
         <source>Snapshot restoration complete.</source>
-        <translation>Restauration de l'instantané terminée.</translation>
+        <translation>Restauration de l&apos;instantané terminée.</translation>
     </message>
     <message>
         <location filename="../src/ui/Cli.cpp" line="104"/>
         <source>A copy of the original subvolume has been saved as </source>
-        <translation>Une copie du sous-volume d'origine a été enregistrée sous </translation>
+        <translation>Une copie du sous-volume d&apos;origine a été enregistrée sous </translation>
     </message>
     <message>
         <location filename="../src/ui/Cli.cpp" line="105"/>
@@ -299,7 +299,7 @@
     <message>
         <location filename="../src/ui/DiffViewer.cpp" line="38"/>
         <source>The file failed to restore</source>
-        <translation>Le fichier n'a pas pu être restauré</translation>
+        <translation>Le fichier n&apos;a pas pu être restauré</translation>
     </message>
     <message>
         <location filename="../src/ui/DiffViewer.cpp" line="42"/>
@@ -335,7 +335,7 @@
     <message>
         <location filename="../src/ui/DiffViewer.cpp" line="121"/>
         <source>There are no differences between the selected files</source>
-        <translation>Il n'y a aucune différence entre les fichiers sélectionnés</translation>
+        <translation>Il n&apos;y a aucune différence entre les fichiers sélectionnés</translation>
     </message>
 </context>
 <context>
@@ -365,7 +365,7 @@
     <message>
         <location filename="../src/ui/FileBrowser.cpp" line="41"/>
         <source>Snapshot File Viewer</source>
-        <translation>Visionneuse de fichiers d'instantané</translation>
+        <translation>Visionneuse de fichiers d&apos;instantané</translation>
     </message>
     <message>
         <location filename="../src/ui/FileBrowser.cpp" line="53"/>
@@ -405,7 +405,7 @@
     <message>
         <location filename="../src/ui/FileBrowser.cpp" line="109"/>
         <source>The file failed to restore</source>
-        <translation>Le fichier n'a pas pu être restauré</translation>
+        <translation>Le fichier n&apos;a pas pu être restauré</translation>
     </message>
     <message>
         <location filename="../src/ui/FileBrowser.cpp" line="113"/>
@@ -473,7 +473,7 @@
     <message>
         <location filename="../src/ui/MainWindow.ui" line="242"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Utilization percentage of system chunks in the allocated space.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d'utilisation des blocs système dans l'espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d&apos;utilisation des blocs système dans l&apos;espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.ui" line="252"/>
@@ -493,12 +493,12 @@
     <message>
         <location filename="../src/ui/MainWindow.ui" line="273"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Utilization percentage of metadata chunks in the allocated space.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d'utilisation des blocs de métadonnées dans l'espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d&apos;utilisation des blocs de métadonnées dans l&apos;espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.ui" line="283"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Utilization percentage of file data chunks in the allocated space.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d'utilisation des blocs de données de fichiers dans l'espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d&apos;utilisation des blocs de données de fichiers dans l&apos;espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.ui" line="302"/>
@@ -514,7 +514,7 @@
         <location filename="../src/ui/MainWindow.ui" line="315"/>
         <location filename="../src/ui/MainWindow.ui" line="392"/>
         <source>Estimate of the amount of data that can still be written to this FS, based on the current usage profile.</source>
-        <translation>Estimation de la quantité de données pouvant encore être écrites sur ce système de fichiers, basée sur le profil d'utilisation actuel.</translation>
+        <translation>Estimation de la quantité de données pouvant encore être écrites sur ce système de fichiers, basée sur le profil d&apos;utilisation actuel.</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.ui" line="325"/>
@@ -822,12 +822,12 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="308"/>
         <source>You have lots of free space, did you overbuy?</source>
-        <translation>Vous disposez de beaucoup d'espace libre, avez-vous suracheté ?</translation>
+        <translation>Vous disposez de beaucoup d&apos;espace libre, avez-vous suracheté ?</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="310"/>
         <source>Situation critical!  Time to delete some data or buy more disk</source>
-        <translation>Situation critique ! Il est temps de supprimer des données ou d'acheter plus d'espace disque</translation>
+        <translation>Situation critique ! Il est temps de supprimer des données ou d&apos;acheter plus d&apos;espace disque</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="312"/>
@@ -872,12 +872,12 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="532"/>
         <source>This is not a snapshot that can be restored by this application</source>
-        <translation>Ceci n'est pas un instantané qui peut être restauré par cette application</translation>
+        <translation>Ceci n&apos;est pas un instantané qui peut être restauré par cette application</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="542"/>
         <source>Snapshot subvolume not found</source>
-        <translation>Sous-volume de l'instantané introuvable</translation>
+        <translation>Sous-volume de l&apos;instantané introuvable</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="552"/>
@@ -908,18 +908,18 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="578"/>
         <source>Snapshot Restore</source>
-        <translation>Restauration d'instantané</translation>
+        <translation>Restauration d&apos;instantané</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="579"/>
         <source>Snapshot restoration complete.</source>
-        <translation>Restauration de l'instantané terminée.</translation>
+        <translation>Restauration de l&apos;instantané terminée.</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="579"/>
         <location filename="../src/ui/MainWindow.cpp" line="1534"/>
         <source>A copy of the original subvolume has been saved as </source>
-        <translation>Une copie du sous-volume d'origine a été enregistrée sous </translation>
+        <translation>Une copie du sous-volume d&apos;origine a été enregistrée sous </translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="580"/>
@@ -955,7 +955,7 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="842"/>
         <source>Failed to save changes</source>
-        <translation>Échec de l'enregistrement des modifications</translation>
+        <translation>Échec de l&apos;enregistrement des modifications</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="861"/>
@@ -992,22 +992,22 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="946"/>
         <source>Are you sure you want to set read-only flag for %1?</source>
-        <translation>Voulez-vous vraiment définir l'indicateur de lecture seule pour %1 ?</translation>
+        <translation>Voulez-vous vraiment définir l&apos;indicateur de lecture seule pour %1 ?</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="948"/>
         <source>Are you sure you want to clear read-only flag for %1?</source>
-        <translation>Voulez-vous vraiment effacer l'indicateur de lecture seule pour %1 ?</translation>
+        <translation>Voulez-vous vraiment effacer l&apos;indicateur de lecture seule pour %1 ?</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="952"/>
         <source>Are you sure you want to set read-only flag for %1 subvolumes?</source>
-        <translation>Voulez-vous vraiment définir l'indicateur de lecture seule pour %1 sous-volumes ?</translation>
+        <translation>Voulez-vous vraiment définir l&apos;indicateur de lecture seule pour %1 sous-volumes ?</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="954"/>
         <source>Are you sure you want to clear read-only flag for %1 subvolumes?</source>
-        <translation>Voulez-vous vraiment effacer l'indicateur de lecture seule pour %1 sous-volumes ?</translation>
+        <translation>Voulez-vous vraiment effacer l&apos;indicateur de lecture seule pour %1 sous-volumes ?</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="564"/>
@@ -1044,7 +1044,7 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="974"/>
         <source>Failed to apply changes to the following subvolumes:</source>
-        <translation>Échec de l'application des modifications aux sous-volumes suivants :</translation>
+        <translation>Échec de l&apos;application des modifications aux sous-volumes suivants :</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="983"/>
@@ -1069,12 +1069,12 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1010"/>
         <source>Set &amp;read-only flag</source>
-        <translation>Définir l'indicateur de &amp;lecture seule</translation>
+        <translation>Définir l&apos;indicateur de &amp;lecture seule</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1016"/>
         <source>&amp;Clear read-only flag</source>
-        <translation>&amp;Effacer l'indicateur de lecture seule</translation>
+        <translation>&amp;Effacer l&apos;indicateur de lecture seule</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1021"/>
@@ -1084,22 +1084,22 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1032"/>
         <source>Set cleanup algorithm to &amp;timeline</source>
-        <translation>Définir l'algorithme de nettoyage sur &amp;chronologie</translation>
+        <translation>Définir l&apos;algorithme de nettoyage sur &amp;chronologie</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1035"/>
         <source>Set cleanup algorithm to &amp;number</source>
-        <translation>Définir l'algorithme de nettoyage sur &amp;nombre</translation>
+        <translation>Définir l&apos;algorithme de nettoyage sur &amp;nombre</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1038"/>
         <source>&amp;Remove cleanup algorithm</source>
-        <translation>&amp;Supprimer l'algorithme de nettoyage</translation>
+        <translation>&amp;Supprimer l&apos;algorithme de nettoyage</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1041"/>
         <source>&amp;Delete snapshot</source>
-        <translation>&amp;Supprimer l'instantané</translation>
+        <translation>&amp;Supprimer l&apos;instantané</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1044"/>
@@ -1109,7 +1109,7 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1138"/>
         <source>Please select a subvolume to delete first!</source>
-        <translation>Veuillez d'abord sélectionner un sous-volume à supprimer !</translation>
+        <translation>Veuillez d&apos;abord sélectionner un sous-volume à supprimer !</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1143"/>
@@ -1163,7 +1163,7 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1245"/>
         <source>Failed to restore snapshot</source>
-        <translation>Échec de la restauration de l'instantané</translation>
+        <translation>Échec de la restauration de l&apos;instantané</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1274"/>
@@ -1173,12 +1173,12 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1300"/>
         <source>No config selected for snapshot</source>
-        <translation>Aucune configuration sélectionnée pour l'instantané</translation>
+        <translation>Aucune configuration sélectionnée pour l&apos;instantané</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1306"/>
         <source>Enter a description for the snapshot</source>
-        <translation>Saisissez une description pour l'instantané</translation>
+        <translation>Saisissez une description pour l&apos;instantané</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1306"/>
@@ -1193,7 +1193,7 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1357"/>
         <source>Cannot delete snapshot</source>
-        <translation>Impossible de supprimer l'instantané</translation>
+        <translation>Impossible de supprimer l&apos;instantané</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1409"/>
@@ -1208,7 +1208,7 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1421"/>
         <source>Cannot change description of snapshot</source>
-        <translation>Impossible de modifier la description de l'instantané</translation>
+        <translation>Impossible de modifier la description de l&apos;instantané</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1493"/>
@@ -1218,7 +1218,7 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1504"/>
         <source>The subvolume you selected is not a Btrfs Assistant backup</source>
-        <translation>Le sous-volume que vous avez sélectionné n'est pas une sauvegarde de Btrfs Assistant</translation>
+        <translation>Le sous-volume que vous avez sélectionné n&apos;est pas une sauvegarde de Btrfs Assistant</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1515"/>
@@ -1243,7 +1243,7 @@
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1562"/>
         <source>Failed to set cleanup algorithm for snapshot %1</source>
-        <translation>Échec de la définition de l'algorithme de nettoyage pour l'instantané %1</translation>
+        <translation>Échec de la définition de l&apos;algorithme de nettoyage pour l&apos;instantané %1</translation>
     </message>
     <message>
         <location filename="../src/ui/MainWindow.cpp" line="1581"/>
@@ -1429,12 +1429,12 @@
     <message>
         <location filename="../src/main.cpp" line="33"/>
         <source>Restore the given snapshot</source>
-        <translation>Restaurer l'instantané donné</translation>
+        <translation>Restaurer l&apos;instantané donné</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="34"/>
         <source>index of snapshot</source>
-        <translation>index de l'instantané</translation>
+        <translation>index de l&apos;instantané</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="42"/>
