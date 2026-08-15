@@ -61,7 +61,6 @@ install -D -m 644 src/snapper.actions \
 %dir %{_datadir}/btrfs-assistant
 %dir %{_datadir}/btrfs-assistant/translations
 %{_datadir}/btrfs-assistant/translations/*.qm
-%{_datadir}/btrfs-assistant/translations/*.ts
 %{_datadir}/applications/btrfs-assistant.desktop
 %{_datadir}/metainfo/btrfs-assistant.metainfo.xml
 %{_datadir}/polkit-1/actions/org.btrfs-assistant.pkexec.policy
