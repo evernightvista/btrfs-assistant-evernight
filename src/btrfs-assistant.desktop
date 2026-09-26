@@ -1,9 +1,19 @@
 [Desktop Entry]
 Name=Btrfs Assistant
 Name[zh_CN]=Btrfs 助手
+Name[zh_TW]=Btrfs 助手
+Name[ja]=Btrfs アシスタント
+Name[fr]=Assistant Btrfs
+Name[de]=Btrfs-Assistent
+Name[ko]=Btrfs 도우미
 Comment=GUI management tool to make managing a Btrfs filesystem easier
 Comment[ru]=Графический инструмент, упрощающий управление файловой системой Btrfs
 Comment[zh_CN]=让 Btrfs 文件系统管理更加简单的图形管理工具
+Comment[zh_TW]=讓 Btrfs 檔案系統管理更加簡單的圖形管理工具
+Comment[ja]=Btrfs ファイルシステムの管理をより簡単にする GUI 管理ツール
+Comment[fr]=Outil de gestion graphique facilitant la gestion d'un système de fichiers Btrfs
+Comment[de]=GUI-Verwaltungstool, das die Verwaltung eines Btrfs-Dateisystems vereinfacht
+Comment[ko]=Btrfs 파일 시스템 관리를 더 쉽게 해주는 GUI 관리 도구
 Exec=btrfs-assistant-launcher
 Terminal=false
 Type=Application
