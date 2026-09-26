@@ -8,6 +8,7 @@ URL:            https://gitlab.com/btrfs-assistant/btrfs-assistant
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  cmake >= 3.16
+BuildRequires:  cmake(Qt6LinguistTools)
 BuildRequires:  gcc-c++
 BuildRequires:  qt6-qtbase-devel
 BuildRequires:  qt6-linguist
