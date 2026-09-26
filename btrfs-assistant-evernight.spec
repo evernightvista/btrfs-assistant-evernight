@@ -1,5 +1,5 @@
 Name:           btrfs-assistant-evernight
-Version:        2.2
+Version:        2.3.2
 Release:        1%{?dist}
 Summary:        GUI management tool for Btrfs and Snapper
 
@@ -80,6 +80,9 @@ if [ $1 -eq 0 ] ; then
 fi
 
 %changelog
+* Sat Sep 26 2026 Evernight Vista Team <13278297951@sina.cn> - 2.3.2-1
+- Update to 2.3.1 from btrfs-assistant upstream
+
 * Sat Aug 15 2026 Evernight Vista Team <13278297951@sina.cn> - 2.2-1
 - Repackaged as btrfs-assistant-evernight
 - Added translations: Japanese, Korean, French, German, Traditional Chinese

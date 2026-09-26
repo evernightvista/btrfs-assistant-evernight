@@ -4,42 +4,42 @@
 <context>
     <name>Btrfs</name>
     <message>
-        <location filename="../src/util/Btrfs.cpp" line="115"/>
+        <location filename="../src/util/Btrfs.cpp" line="115"></location>
         <source>Failed to create the snapshot</source>
-        <translation>Échec de la création de l&apos;instantané</translation>
+        <translation>Échec de la création du snapshot</translation>
     </message>
     <message>
-        <location filename="../src/util/Btrfs.cpp" line="380"/>
+        <location filename="../src/util/Btrfs.cpp" line="380"></location>
         <source>You cannot restore to the root of the partition</source>
-        <translation>Vous ne pouvez pas restaurer à la racine de la partition</translation>
+        <translation>Impossible de restaurer à la racine de la partition</translation>
     </message>
     <message>
-        <location filename="../src/util/Btrfs.cpp" line="407"/>
+        <location filename="../src/util/Btrfs.cpp" line="407"></location>
         <source>Failed to make a backup of target subvolume</source>
         <translation>Échec de la sauvegarde du sous-volume cible</translation>
     </message>
     <message>
-        <location filename="../src/util/Btrfs.cpp" line="428"/>
+        <location filename="../src/util/Btrfs.cpp" line="428"></location>
         <source>Failed to restore subvolume!</source>
         <translation>Échec de la restauration du sous-volume !</translation>
     </message>
     <message>
-        <location filename="../src/util/Btrfs.cpp" line="429"/>
+        <location filename="../src/util/Btrfs.cpp" line="429"></location>
         <source>Snapshot restore failed.  Please verify the status of your system before rebooting</source>
-        <translation>La restauration de l&apos;instantané a échoué. Veuillez vérifier l&apos;état de votre système avant de redémarrer</translation>
+        <translation>La restauration du snapshot a échoué. Veuillez vérifier l'état de votre système avant de redémarrer</translation>
     </message>
     <message>
-        <location filename="../src/util/Btrfs.cpp" line="444"/>
+        <location filename="../src/util/Btrfs.cpp" line="444"></location>
         <source>The restore was successful but the migration of the nested subvolumes failed</source>
         <translation>La restauration a réussi mais la migration des sous-volumes imbriqués a échoué</translation>
     </message>
     <message>
-        <location filename="../src/util/Btrfs.cpp" line="445"/>
+        <location filename="../src/util/Btrfs.cpp" line="445"></location>
         <source>Please migrate the those subvolumes manually</source>
-        <translation>Veuillez migrer manuellement ces sous-volumes</translation>
+        <translation>Veuillez migrer ces sous-volumes manuellement</translation>
     </message>
     <message>
-        <location filename="../src/util/Btrfs.cpp" line="572"/>
+        <location filename="../src/util/Btrfs.cpp" line="572"></location>
         <source>UUID </source>
         <translation>UUID </translation>
     </message>
@@ -47,207 +47,207 @@
 <context>
     <name>BtrfsStatus</name>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="16"/>
-        <location filename="../src/util/BtrfsStatus.cpp" line="55"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="16"></location>
+        <location filename="../src/util/BtrfsStatus.cpp" line="55"></location>
         <source>no stats available</source>
         <translation>aucune statistique disponible</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="19"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="19"></location>
         <source>no errors found</source>
-        <translation>aucune erreur trouvée</translation>
+        <translation>aucune erreur détectée</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="22"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="22"></location>
         <source>running</source>
-        <translation>en cours d&apos;exécution</translation>
+        <translation>en cours</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="25"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="25"></location>
         <source>finished</source>
         <translation>terminé</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="28"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="28"></location>
         <source>canceled</source>
         <translation>annulé</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="31"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="31"></location>
         <source>aborted</source>
         <translation>interrompu</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="34"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="34"></location>
         <source>interrupted</source>
         <translation>interrompu</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="64"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="64"></location>
         <source>UUID:</source>
         <translation>UUID :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="65"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="65"></location>
         <source>Scrub started:</source>
         <translation>Scrub démarré :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="66"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="66"></location>
         <source>Scrub resumed:</source>
         <translation>Scrub repris :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="67"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="67"></location>
         <source>Status:</source>
         <translation>Statut :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="68"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="68"></location>
         <source>Duration:</source>
         <translation>Durée :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="69"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="69"></location>
         <source>Time left:</source>
         <translation>Temps restant :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="70"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="70"></location>
         <source>ETA:</source>
-        <translation>Heure estimée :</translation>
+        <translation>ETA :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="71"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="71"></location>
         <source>Total to scrub:</source>
-        <translation>Total à vérifier :</translation>
+        <translation>Total à scrubber :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="72"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="72"></location>
         <source>Bytes scrubbed:</source>
-        <translation>Octets vérifiés :</translation>
+        <translation>Octets scrubbés :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="73"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="73"></location>
         <source>Rate:</source>
-        <translation>Débit :</translation>
+        <translation>Taux :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="74"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="74"></location>
         <source>Error summary:</source>
         <translation>Résumé des erreurs :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="75"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="75"></location>
         <source>read_errors:</source>
-        <translation>erreurs de lecture :</translation>
+        <translation>erreurs_lecture :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="76"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="76"></location>
         <source>csum_errors:</source>
-        <translation>erreurs de somme de contrôle :</translation>
+        <translation>erreurs_somme_de_controle :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="77"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="77"></location>
         <source>verify_errors:</source>
-        <translation>erreurs de vérification :</translation>
+        <translation>erreurs_verification :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="78"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="78"></location>
         <source>super_errors:</source>
-        <translation>erreurs de super-bloc :</translation>
+        <translation>erreurs_super_bloc :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="79"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="79"></location>
         <source>malloc_errors:</source>
-        <translation>erreurs d&apos;allocation mémoire :</translation>
+        <translation>erreurs_allocation_memoire :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="80"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="80"></location>
         <source>uncorrectable_errors:</source>
-        <translation>erreurs non corrigeables :</translation>
+        <translation>erreurs_irreparables :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="81"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="81"></location>
         <source>unverified_errors:</source>
-        <translation>erreurs non vérifiées :</translation>
+        <translation>erreurs_non_verifiees :</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="111"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="111"></location>
         <source>No balance operation found on %1</source>
-        <translation>Aucune opération d&apos;équilibrage trouvée sur %1</translation>
+        <translation>Aucune opération d'équilibrage trouvée sur %1</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="116"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="116"></location>
         <source>Balance operation on %1 is running</source>
-        <translation>L&apos;opération d&apos;équilibrage sur %1 est en cours</translation>
+        <translation>L'opération d'équilibrage sur %1 est en cours</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="121"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="121"></location>
         <source>Balance operation on %1 is paused</source>
-        <translation>L&apos;opération d&apos;équilibrage sur %1 est en pause</translation>
+        <translation>L'opération d'équilibrage sur %1 est en pause</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="126"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="126"></location>
         <source>Done, relocated %1 of %2 chunks</source>
-        <translation>Terminé, %1 sur %2 blocs relocalisés</translation>
+        <translation>Terminé, %1 blocs sur %2 ont été relocalisés</translation>
     </message>
     <message>
-        <location filename="../src/util/BtrfsStatus.cpp" line="131"/>
+        <location filename="../src/util/BtrfsStatus.cpp" line="131"></location>
         <source>%1 of about %2 chunks balanced (%3 considered), %4% left</source>
-        <translation>%1 sur environ %2 blocs équilibrés (%3 considérés), %4% restant</translation>
+        <translation>%1 blocs sur environ %2 équilibrés (%3 examinés), %4% restant</translation>
     </message>
 </context>
 <context>
     <name>Cli</name>
     <message>
-        <location filename="../src/ui/Cli.cpp" line="34"/>
-        <location filename="../src/ui/Cli.cpp" line="52"/>
+        <location filename="../src/ui/Cli.cpp" line="34"></location>
+        <location filename="../src/ui/Cli.cpp" line="52"></location>
         <source>You must run this application as root</source>
         <translation>Vous devez exécuter cette application en tant que root</translation>
     </message>
     <message>
-        <location filename="../src/ui/Cli.cpp" line="61"/>
+        <location filename="../src/ui/Cli.cpp" line="61"></location>
         <source>Failed to parse snapshot list</source>
-        <translation>Échec de l&apos;analyse de la liste des instantanés</translation>
+        <translation>Échec de l'analyse de la liste des snapshots</translation>
     </message>
     <message>
-        <location filename="../src/ui/Cli.cpp" line="69"/>
+        <location filename="../src/ui/Cli.cpp" line="69"></location>
         <source>This is not a snapshot that can be restored by this application</source>
-        <translation>Ceci n&apos;est pas un instantané qui peut être restauré par cette application</translation>
+        <translation>Ce n'est pas un snapshot pouvant être restauré par cette application</translation>
     </message>
     <message>
-        <location filename="../src/ui/Cli.cpp" line="78"/>
+        <location filename="../src/ui/Cli.cpp" line="78"></location>
         <source>Source snapshot not found</source>
-        <translation>Instantané source introuvable</translation>
+        <translation>Snapshot source introuvable</translation>
     </message>
     <message>
-        <location filename="../src/ui/Cli.cpp" line="83"/>
+        <location filename="../src/ui/Cli.cpp" line="83"></location>
         <source>Snapshot subvolume not found</source>
-        <translation>Sous-volume de l&apos;instantané introuvable</translation>
+        <translation>Sous-volume du snapshot introuvable</translation>
     </message>
     <message>
-        <location filename="../src/ui/Cli.cpp" line="92"/>
+        <location filename="../src/ui/Cli.cpp" line="92"></location>
         <source>Target not found</source>
         <translation>Cible introuvable</translation>
     </message>
     <message>
-        <location filename="../src/ui/Cli.cpp" line="96"/>
+        <location filename="../src/ui/Cli.cpp" line="96"></location>
         <source>Restoring snapshot %1</source>
-        <translation>Restauration de l&apos;instantané %1</translation>
+        <translation>Restauration du snapshot %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/Cli.cpp" line="103"/>
+        <location filename="../src/ui/Cli.cpp" line="103"></location>
         <source>Snapshot restoration complete.</source>
-        <translation>Restauration de l&apos;instantané terminée.</translation>
+        <translation>Restauration du snapshot terminée.</translation>
     </message>
     <message>
-        <location filename="../src/ui/Cli.cpp" line="104"/>
+        <location filename="../src/ui/Cli.cpp" line="104"></location>
         <source>A copy of the original subvolume has been saved as </source>
-        <translation>Une copie du sous-volume d&apos;origine a été enregistrée sous </translation>
+        <translation>Une copie du sous-volume original a été enregistrée sous </translation>
     </message>
     <message>
-        <location filename="../src/ui/Cli.cpp" line="105"/>
+        <location filename="../src/ui/Cli.cpp" line="105"></location>
         <source>Please reboot immediately
 </source>
         <translation>Veuillez redémarrer immédiatement
@@ -257,158 +257,158 @@
 <context>
     <name>DiffViewer</name>
     <message>
-        <location filename="../src/ui/DiffViewer.ui" line="14"/>
+        <location filename="../src/ui/DiffViewer.ui" line="14"></location>
         <source>Dialog</source>
         <translation>Boîte de dialogue</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.ui" line="83"/>
+        <location filename="../src/ui/DiffViewer.ui" line="83"></location>
         <source>Select a snapshot from the left to see the diff</source>
-        <translation>Sélectionnez un instantané à gauche pour voir les différences</translation>
+        <translation>Sélectionnez un snapshot à gauche pour voir les différences</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.ui" line="116"/>
+        <location filename="../src/ui/DiffViewer.ui" line="116"></location>
         <source>Restore</source>
         <translation>Restaurer</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.ui" line="123"/>
+        <location filename="../src/ui/DiffViewer.ui" line="123"></location>
         <source>Close</source>
         <translation>Fermer</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="14"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="14"></location>
         <source>Diff Viewer</source>
         <translation>Visionneuse de différences</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="29"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="29"></location>
         <source>Confirm</source>
         <translation>Confirmer</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="29"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="29"></location>
         <source>Are you sure you want to restore this the file over the current file?</source>
-        <translation>Voulez-vous vraiment remplacer le fichier actuel par celui-ci ?</translation>
+        <translation>Voulez-vous vraiment restaurer ce fichier par-dessus le fichier actuel ?</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="38"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="38"></location>
         <source>Restore Failed</source>
         <translation>Échec de la restauration</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="38"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="38"></location>
         <source>The file failed to restore</source>
-        <translation>Le fichier n&apos;a pas pu être restauré</translation>
+        <translation>Échec de la restauration du fichier</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="42"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="42"></location>
         <source>Restore File</source>
         <translation>Restaurer le fichier</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="42"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="42"></location>
         <source>The file was successfully restored</source>
         <translation>Le fichier a été restauré avec succès</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="63"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="63"></location>
         <source>Num</source>
         <comment>The number associated with a snapshot</comment>
         <translation>N°</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="64"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="64"></location>
         <source>Date/Time</source>
         <translation>Date/Heure</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="65"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="65"></location>
         <source>Root Path</source>
         <translation>Chemin racine</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="66"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="66"></location>
         <source>File Path</source>
         <translation>Chemin du fichier</translation>
     </message>
     <message>
-        <location filename="../src/ui/DiffViewer.cpp" line="121"/>
+        <location filename="../src/ui/DiffViewer.cpp" line="121"></location>
         <source>There are no differences between the selected files</source>
-        <translation>Il n&apos;y a aucune différence entre les fichiers sélectionnés</translation>
+        <translation>Il n'y a aucune différence entre les fichiers sélectionnés</translation>
     </message>
 </context>
 <context>
     <name>FileBrowser</name>
     <message>
-        <location filename="../src/ui/FileBrowser.ui" line="14"/>
+        <location filename="../src/ui/FileBrowser.ui" line="14"></location>
         <source>Dialog</source>
         <translation>Boîte de dialogue</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.ui" line="70"/>
+        <location filename="../src/ui/FileBrowser.ui" line="70"></location>
         <source>Show Diff</source>
         <translation>Afficher les différences</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.ui" line="83"/>
-        <location filename="../src/ui/FileBrowser.cpp" line="93"/>
-        <location filename="../src/ui/FileBrowser.cpp" line="113"/>
+        <location filename="../src/ui/FileBrowser.ui" line="83"></location>
+        <location filename="../src/ui/FileBrowser.cpp" line="93"></location>
+        <location filename="../src/ui/FileBrowser.cpp" line="113"></location>
         <source>Restore File</source>
         <translation>Restaurer le fichier</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.ui" line="96"/>
+        <location filename="../src/ui/FileBrowser.ui" line="96"></location>
         <source>Close</source>
         <translation>Fermer</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.cpp" line="41"/>
+        <location filename="../src/ui/FileBrowser.cpp" line="41"></location>
         <source>Snapshot File Viewer</source>
-        <translation>Visionneuse de fichiers d&apos;instantané</translation>
+        <translation>Visionneuse de fichiers de snapshot</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.cpp" line="53"/>
+        <location filename="../src/ui/FileBrowser.cpp" line="53"></location>
         <source>File Viewer</source>
         <translation>Visionneuse de fichiers</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.cpp" line="70"/>
+        <location filename="../src/ui/FileBrowser.cpp" line="70"></location>
         <source>Diff File</source>
-        <translation>Comparer le fichier</translation>
+        <translation>Comparer les fichiers</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.cpp" line="71"/>
+        <location filename="../src/ui/FileBrowser.cpp" line="71"></location>
         <source> is a directory, only files can be diffed</source>
         <translation> est un répertoire, seuls les fichiers peuvent être comparés</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.cpp" line="94"/>
+        <location filename="../src/ui/FileBrowser.cpp" line="94"></location>
         <source> is a directory, only files can be restored</source>
         <translation> est un répertoire, seuls les fichiers peuvent être restaurés</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.cpp" line="98"/>
+        <location filename="../src/ui/FileBrowser.cpp" line="98"></location>
         <source>Confirm</source>
         <translation>Confirmer</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.cpp" line="98"/>
+        <location filename="../src/ui/FileBrowser.cpp" line="98"></location>
         <source>Are you sure you want to restore this the file over the current file?</source>
-        <translation>Voulez-vous vraiment remplacer le fichier actuel par celui-ci ?</translation>
+        <translation>Voulez-vous vraiment restaurer ce fichier par-dessus le fichier actuel ?</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.cpp" line="109"/>
+        <location filename="../src/ui/FileBrowser.cpp" line="109"></location>
         <source>Restore Failed</source>
         <translation>Échec de la restauration</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.cpp" line="109"/>
+        <location filename="../src/ui/FileBrowser.cpp" line="109"></location>
         <source>The file failed to restore</source>
-        <translation>Le fichier n&apos;a pas pu être restauré</translation>
+        <translation>Échec de la restauration du fichier</translation>
     </message>
     <message>
-        <location filename="../src/ui/FileBrowser.cpp" line="113"/>
+        <location filename="../src/ui/FileBrowser.cpp" line="113"></location>
         <source>The file was successfully restored</source>
         <translation>Le fichier a été restauré avec succès</translation>
     </message>
@@ -416,842 +416,862 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="14"/>
+        <location filename="../src/ui/MainWindow.ui" line="14"></location>
         <source>BTRFS-Assistant</source>
-        <translation>Btrfs Assistant</translation>
+        <translation>Assistant Btrfs</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="31"/>
+        <location filename="../src/ui/MainWindow.ui" line="31"></location>
         <source>Overview</source>
-        <translation>Aperçu</translation>
+        <translation>Vue d'ensemble</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="67"/>
-        <location filename="../src/ui/MainWindow.ui" line="1577"/>
+        <location filename="../src/ui/MainWindow.ui" line="67"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1577"></location>
         <source>Scrub</source>
         <translation>Scrub</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="108"/>
+        <location filename="../src/ui/MainWindow.ui" line="108"></location>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Perform scrub on device.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Effectuer un scrub sur le périphérique.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="111"/>
-        <location filename="../src/ui/MainWindow.ui" line="195"/>
-        <location filename="../src/ui/MainWindow.cpp" line="159"/>
-        <location filename="../src/ui/MainWindow.cpp" line="179"/>
+        <location filename="../src/ui/MainWindow.ui" line="111"></location>
+        <location filename="../src/ui/MainWindow.ui" line="195"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="159"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="179"></location>
         <source>Start</source>
         <translation>Démarrer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="126"/>
+        <location filename="../src/ui/MainWindow.ui" line="126"></location>
         <source>No scrub ran.</source>
         <translation>Aucun scrub exécuté.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="151"/>
-        <location filename="../src/ui/MainWindow.ui" line="1503"/>
+        <location filename="../src/ui/MainWindow.ui" line="151"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1503"></location>
         <source>Balance</source>
         <translation>Équilibrage</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="192"/>
+        <location filename="../src/ui/MainWindow.ui" line="192"></location>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Perform full balance on device.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Effectuer un équilibrage complet sur le périphérique.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="214"/>
+        <location filename="../src/ui/MainWindow.ui" line="214"></location>
         <source>No balance ran.</source>
         <translation>Aucun équilibrage exécuté.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="236"/>
+        <location filename="../src/ui/MainWindow.ui" line="236"></location>
         <source>Internal Filesystem Statistics</source>
         <translation>Statistiques internes du système de fichiers</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="242"/>
+        <location filename="../src/ui/MainWindow.ui" line="242"></location>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Utilization percentage of system chunks in the allocated space.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d&apos;utilisation des blocs système dans l&apos;espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d'utilisation des blocs système dans l'espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="252"/>
+        <location filename="../src/ui/MainWindow.ui" line="252"></location>
         <source>Data:</source>
         <translation>Données :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="259"/>
+        <location filename="../src/ui/MainWindow.ui" line="259"></location>
         <source>Metadata:</source>
         <translation>Métadonnées :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="266"/>
+        <location filename="../src/ui/MainWindow.ui" line="266"></location>
         <source>System:</source>
         <translation>Système :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="273"/>
+        <location filename="../src/ui/MainWindow.ui" line="273"></location>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Utilization percentage of metadata chunks in the allocated space.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d&apos;utilisation des blocs de métadonnées dans l&apos;espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d'utilisation des blocs de métadonnées dans l'espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="283"/>
+        <location filename="../src/ui/MainWindow.ui" line="283"></location>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Utilization percentage of file data chunks in the allocated space.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d&apos;utilisation des blocs de données de fichiers dans l&apos;espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pourcentage d'utilisation des blocs de données de fichiers dans l'espace alloué.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="302"/>
+        <location filename="../src/ui/MainWindow.ui" line="302"></location>
         <source>Information</source>
         <translation>Informations</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="308"/>
+        <location filename="../src/ui/MainWindow.ui" line="308"></location>
         <source>Used:</source>
         <translation>Utilisé :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="315"/>
-        <location filename="../src/ui/MainWindow.ui" line="392"/>
+        <location filename="../src/ui/MainWindow.ui" line="315"></location>
+        <location filename="../src/ui/MainWindow.ui" line="392"></location>
         <source>Estimate of the amount of data that can still be written to this FS, based on the current usage profile.</source>
-        <translation>Estimation de la quantité de données pouvant encore être écrites sur ce système de fichiers, basée sur le profil d&apos;utilisation actuel.</translation>
+        <translation>Estimation de la quantité de données pouvant encore être écrite sur ce système de fichiers, selon le profil d'utilisation actuel.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="325"/>
-        <location filename="../src/ui/MainWindow.ui" line="402"/>
+        <location filename="../src/ui/MainWindow.ui" line="325"></location>
+        <location filename="../src/ui/MainWindow.ui" line="402"></location>
         <source>Minimum amount of data that you can expect to be able to get onto the filesystem. </source>
-        <translation>Quantité minimale de données que vous pouvez espérer écrire sur le système de fichiers. </translation>
+        <translation>Quantité minimale de données que vous pouvez espérer pouvoir écrire sur le système de fichiers. </translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="345"/>
+        <location filename="../src/ui/MainWindow.ui" line="345"></location>
         <source>Allocated:  </source>
-        <translation>Alloué :  </translation>
+        <translation>Alloué :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="359"/>
+        <location filename="../src/ui/MainWindow.ui" line="359"></location>
         <source>Filesystem Size: </source>
-        <translation>Taille du système de fichiers : </translation>
+        <translation>Taille du système de fichiers :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="395"/>
+        <location filename="../src/ui/MainWindow.ui" line="395"></location>
         <source>Free (Estimated): </source>
-        <translation>Libre (estimé) : </translation>
+        <translation>Libre (estimé) :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="405"/>
+        <location filename="../src/ui/MainWindow.ui" line="405"></location>
         <source>Free (Minimum): </source>
-        <translation>Libre (minimum) : </translation>
+        <translation>Libre (minimum) :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="421"/>
+        <location filename="../src/ui/MainWindow.ui" line="421"></location>
         <source>Volume Selection</source>
         <translation>Sélection du volume</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="427"/>
+        <location filename="../src/ui/MainWindow.ui" line="427"></location>
         <source>Filesystem:</source>
         <translation>Système de fichiers :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="463"/>
+        <location filename="../src/ui/MainWindow.ui" line="463"></location>
         <source>Enable Quotas</source>
         <translation>Activer les quotas</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="470"/>
+        <location filename="../src/ui/MainWindow.ui" line="470"></location>
         <source>Refresh Btrfs Data</source>
         <translation>Actualiser les données Btrfs</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="485"/>
+        <location filename="../src/ui/MainWindow.ui" line="485"></location>
         <source>Subvolumes</source>
         <translation>Sous-volumes</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="523"/>
+        <location filename="../src/ui/MainWindow.ui" line="523"></location>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Include children subvolumes of .snapshots and timeshift folders.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Inclure les sous-volumes enfants des dossiers .snapshots et timeshift.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="526"/>
+        <location filename="../src/ui/MainWindow.ui" line="526"></location>
         <source>Include Timeshift and Snapper Snapshots</source>
-        <translation>Inclure les instantanés Timeshift et Snapper</translation>
+        <translation>Inclure les snapshots Timeshift et Snapper</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="536"/>
+        <location filename="../src/ui/MainWindow.ui" line="536"></location>
         <source>Include Container Subvolumes</source>
         <translation>Inclure les sous-volumes de conteneurs</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="557"/>
+        <location filename="../src/ui/MainWindow.ui" line="557"></location>
         <source>Filter...</source>
         <translation>Filtrer...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="583"/>
+        <location filename="../src/ui/MainWindow.ui" line="583"></location>
         <source>Restore Backup</source>
-        <translation>Restaurer la sauvegarde</translation>
+        <translation>Restaurer une sauvegarde</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="603"/>
-        <location filename="../src/ui/MainWindow.ui" line="905"/>
+        <location filename="../src/ui/MainWindow.ui" line="603"></location>
+        <location filename="../src/ui/MainWindow.ui" line="905"></location>
         <source>Browse</source>
         <translation>Parcourir</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="623"/>
-        <location filename="../src/ui/MainWindow.ui" line="786"/>
-        <location filename="../src/ui/MainWindow.ui" line="1070"/>
+        <location filename="../src/ui/MainWindow.ui" line="623"></location>
+        <location filename="../src/ui/MainWindow.ui" line="786"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1070"></location>
         <source>Delete</source>
         <translation>Supprimer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="643"/>
-        <location filename="../src/ui/MainWindow.ui" line="812"/>
-        <location filename="../src/ui/MainWindow.ui" line="951"/>
+        <location filename="../src/ui/MainWindow.ui" line="643"></location>
+        <location filename="../src/ui/MainWindow.ui" line="812"></location>
+        <location filename="../src/ui/MainWindow.ui" line="951"></location>
         <source>Refresh</source>
         <translation>Actualiser</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="690"/>
-        <location filename="../src/ui/MainWindow.cpp" line="861"/>
+        <location filename="../src/ui/MainWindow.ui" line="690"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="871"></location>
         <source>Snapper</source>
         <translation>Snapper</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="712"/>
+        <location filename="../src/ui/MainWindow.ui" line="712"></location>
         <source>New/Delete</source>
         <translation>Nouveau/Supprimer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="733"/>
-        <location filename="../src/ui/MainWindow.ui" line="1040"/>
+        <location filename="../src/ui/MainWindow.ui" line="733"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1040"></location>
         <source>Select config: </source>
-        <translation>Sélectionner la config : </translation>
+        <translation>Sélectionner la config :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="766"/>
-        <location filename="../src/ui/MainWindow.ui" line="1063"/>
+        <location filename="../src/ui/MainWindow.ui" line="766"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1063"></location>
         <source>New</source>
         <translation>Nouveau</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="849"/>
+        <location filename="../src/ui/MainWindow.ui" line="849"></location>
         <source>Browse/Restore</source>
         <translation>Parcourir/Restaurer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="870"/>
+        <location filename="../src/ui/MainWindow.ui" line="870"></location>
         <source>Select target: </source>
-        <translation>Sélectionner la cible : </translation>
+        <translation>Sélectionner la cible :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="925"/>
+        <location filename="../src/ui/MainWindow.ui" line="925"></location>
         <source>Restore</source>
         <translation>Restaurer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="992"/>
+        <location filename="../src/ui/MainWindow.ui" line="992"></location>
         <source>Snapper Settings</source>
         <translation>Paramètres Snapper</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1090"/>
+        <location filename="../src/ui/MainWindow.ui" line="1090"></location>
         <source>Save</source>
         <translation>Enregistrer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1100"/>
-        <location filename="../src/ui/MainWindow.ui" line="1163"/>
+        <location filename="../src/ui/MainWindow.ui" line="1100"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1163"></location>
         <source>Config Information</source>
         <translation>Informations de configuration</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1106"/>
-        <location filename="../src/ui/MainWindow.ui" line="1169"/>
+        <location filename="../src/ui/MainWindow.ui" line="1106"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1169"></location>
         <source>Config name: </source>
-        <translation>Nom de la config : </translation>
+        <translation>Nom de la config :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1133"/>
-        <location filename="../src/ui/MainWindow.ui" line="1196"/>
+        <location filename="../src/ui/MainWindow.ui" line="1133"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1196"></location>
         <source>Backup path: </source>
-        <translation>Chemin de sauvegarde : </translation>
+        <translation>Chemin de sauvegarde :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1232"/>
+        <location filename="../src/ui/MainWindow.ui" line="1232"></location>
         <source>Snapshot Retention</source>
-        <translation>Rétention des instantanés</translation>
+        <translation>Rétention des snapshots</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1238"/>
-        <location filename="../src/ui/MainWindow.ui" line="1261"/>
-        <location filename="../src/ui/MainWindow.ui" line="1275"/>
-        <location filename="../src/ui/MainWindow.ui" line="1282"/>
-        <location filename="../src/ui/MainWindow.ui" line="1353"/>
+        <location filename="../src/ui/MainWindow.ui" line="1238"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1261"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1275"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1282"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1353"></location>
         <source>Save: </source>
-        <translation>Conserver : </translation>
+        <translation>Conserver :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1251"/>
-        <location filename="../src/ui/MainWindow.ui" line="1289"/>
+        <location filename="../src/ui/MainWindow.ui" line="1251"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1289"></location>
         <source>Timeline snapshots are taken hourly, the cleanup job reduces the snapshots in accordance with the below settings</source>
-        <translation>Les instantanés de la chronologie sont pris toutes les heures, la tâche de nettoyage réduit les instantanés conformément aux paramètres ci-dessous</translation>
+        <translation>Les snapshots de la timeline sont pris toutes les heures, la tâche de nettoyage réduit les snapshots conformément aux paramètres ci-dessous</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1254"/>
+        <location filename="../src/ui/MainWindow.ui" line="1254"></location>
         <source>Enable timeline snapshots</source>
-        <translation>Activer les instantanés de la chronologie</translation>
+        <translation>Activer les snapshots de la timeline</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1268"/>
+        <location filename="../src/ui/MainWindow.ui" line="1268"></location>
         <source>Daily</source>
         <translation>Quotidien</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1308"/>
+        <location filename="../src/ui/MainWindow.ui" line="1308"></location>
         <source>Yearly</source>
         <translation>Annuel</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1315"/>
+        <location filename="../src/ui/MainWindow.ui" line="1315"></location>
         <source>Monthly</source>
         <translation>Mensuel</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1325"/>
+        <location filename="../src/ui/MainWindow.ui" line="1325"></location>
         <source>Hourly</source>
         <translation>Horaire</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1332"/>
+        <location filename="../src/ui/MainWindow.ui" line="1332"></location>
         <source>Weekly</source>
         <translation>Hebdomadaire</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1339"/>
+        <location filename="../src/ui/MainWindow.ui" line="1339"></location>
         <source>Save:</source>
         <translation>Conserver :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1346"/>
+        <location filename="../src/ui/MainWindow.ui" line="1346"></location>
         <source>Number</source>
         <translation>Nombre</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1382"/>
+        <location filename="../src/ui/MainWindow.ui" line="1382"></location>
         <source>systemd Unit Settings</source>
-        <translation>Paramètres des unités systemd</translation>
+        <translation>Paramètres de l'unité systemd</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1388"/>
+        <location filename="../src/ui/MainWindow.ui" line="1388"></location>
         <source>Snapper timeline enabled</source>
-        <translation>Chronologie Snapper activée</translation>
+        <translation>Timeline Snapper activée</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1401"/>
+        <location filename="../src/ui/MainWindow.ui" line="1401"></location>
         <source>Snapper cleanup enabled</source>
         <translation>Nettoyage Snapper activé</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1414"/>
+        <location filename="../src/ui/MainWindow.ui" line="1414"></location>
         <source>Snapper boot enabled</source>
-        <translation>Instantané au démarrage Snapper activé</translation>
+        <translation>Snapshot de démarrage Snapper activé</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1433"/>
+        <location filename="../src/ui/MainWindow.ui" line="1433"></location>
         <source>Apply systemd changes</source>
-        <translation>Appliquer les modifications systemd</translation>
+        <translation>Appliquer les changements systemd</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1461"/>
+        <location filename="../src/ui/MainWindow.ui" line="1461"></location>
         <source>Btrfs maintenance</source>
         <translation>Maintenance Btrfs</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1531"/>
-        <location filename="../src/ui/MainWindow.ui" line="1621"/>
-        <location filename="../src/ui/MainWindow.ui" line="1695"/>
+        <location filename="../src/ui/MainWindow.ui" line="1531"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1621"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1695"></location>
         <source>Frequency: </source>
-        <translation>Fréquence : </translation>
+        <translation>Fréquence :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1541"/>
-        <location filename="../src/ui/MainWindow.ui" line="1628"/>
-        <location filename="../src/ui/MainWindow.ui" line="1702"/>
+        <location filename="../src/ui/MainWindow.ui" line="1541"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1628"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1702"></location>
         <source>Select All</source>
         <translation>Tout sélectionner</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1548"/>
-        <location filename="../src/ui/MainWindow.ui" line="1635"/>
-        <location filename="../src/ui/MainWindow.ui" line="1709"/>
+        <location filename="../src/ui/MainWindow.ui" line="1548"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1635"></location>
+        <location filename="../src/ui/MainWindow.ui" line="1709"></location>
         <source>Mountpoints: </source>
-        <translation>Points de montage : </translation>
+        <translation>Points de montage :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1651"/>
+        <location filename="../src/ui/MainWindow.ui" line="1651"></location>
         <source>Defrag</source>
-        <translation>Défragmentation</translation>
+        <translation>Défragmenter</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1747"/>
+        <location filename="../src/ui/MainWindow.ui" line="1747"></location>
         <source>Reset</source>
         <translation>Réinitialiser</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1767"/>
+        <location filename="../src/ui/MainWindow.ui" line="1767"></location>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Update Btrfs Maintenance config file and call service to load new settings.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mettre à jour le fichier de configuration de Btrfs Maintenance et appeler le service pour charger les nouveaux paramètres.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.ui" line="1770"/>
+        <location filename="../src/ui/MainWindow.ui" line="1770"></location>
         <source>Apply</source>
         <translation>Appliquer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="59"/>
+        <location filename="../src/ui/MainWindow.cpp" line="59"></location>
         <source>The application must be run as the superuser(root)</source>
-        <translation>Cette application doit être exécutée en tant que superutilisateur (root)</translation>
+        <translation>L'application doit être exécutée en tant que superutilisateur (root)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="87"/>
+        <location filename="../src/ui/MainWindow.cpp" line="87"></location>
         <source>Error</source>
         <translation>Erreur</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="308"/>
+        <location filename="../src/ui/MainWindow.cpp" line="318"></location>
         <source>You have lots of free space, did you overbuy?</source>
-        <translation>Vous disposez de beaucoup d&apos;espace libre, avez-vous suracheté ?</translation>
+        <translation>Vous avez beaucoup d'espace libre, avez-vous acheté trop grand ?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="310"/>
+        <location filename="../src/ui/MainWindow.cpp" line="320"></location>
         <source>Situation critical!  Time to delete some data or buy more disk</source>
-        <translation>Situation critique ! Il est temps de supprimer des données ou d&apos;acheter plus d&apos;espace disque</translation>
+        <translation>Situation critique ! Il est temps de supprimer des données ou d'acheter un disque plus grand</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="312"/>
+        <location filename="../src/ui/MainWindow.cpp" line="322"></location>
         <source>Your disk space is well utilized</source>
         <translation>Votre espace disque est bien utilisé</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="364"/>
-        <location filename="../src/ui/MainWindow.cpp" line="414"/>
+        <location filename="../src/ui/MainWindow.cpp" line="374"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="424"></location>
         <source>Number</source>
         <comment>The number associated with a snapshot</comment>
-        <translation>N°</translation>
+        <translation>Nombre</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="365"/>
-        <location filename="../src/ui/MainWindow.cpp" line="418"/>
+        <location filename="../src/ui/MainWindow.cpp" line="375"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="428"></location>
         <source>Date/Time</source>
         <translation>Date/Heure</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="366"/>
-        <location filename="../src/ui/MainWindow.cpp" line="419"/>
+        <location filename="../src/ui/MainWindow.cpp" line="376"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="429"></location>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="367"/>
+        <location filename="../src/ui/MainWindow.cpp" line="377"></location>
         <source>Cleanup</source>
         <translation>Nettoyage</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="368"/>
-        <location filename="../src/ui/MainWindow.cpp" line="421"/>
+        <location filename="../src/ui/MainWindow.cpp" line="378"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="431"></location>
         <source>Description</source>
         <translation>Description</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="416"/>
+        <location filename="../src/ui/MainWindow.cpp" line="426"></location>
         <source>Subvolume</source>
         <translation>Sous-volume</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="532"/>
+        <location filename="../src/ui/MainWindow.cpp" line="542"></location>
         <source>This is not a snapshot that can be restored by this application</source>
-        <translation>Ceci n&apos;est pas un instantané qui peut être restauré par cette application</translation>
+        <translation>Ce n'est pas un snapshot pouvant être restauré par cette application</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="542"/>
+        <location filename="../src/ui/MainWindow.cpp" line="552"></location>
         <source>Snapshot subvolume not found</source>
-        <translation>Sous-volume de l&apos;instantané introuvable</translation>
+        <translation>Sous-volume du snapshot introuvable</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="552"/>
+        <location filename="../src/ui/MainWindow.cpp" line="562"></location>
         <source>Target not found</source>
         <translation>Cible introuvable</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="558"/>
+        <location filename="../src/ui/MainWindow.cpp" line="568"></location>
         <source>Warning subvolid mount detected!</source>
-        <translation>Attention : montage par subvolid détecté !</translation>
+        <translation>Avertissement : montage par subvolid détecté !</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="559"/>
+        <location filename="../src/ui/MainWindow.cpp" line="569"></location>
         <source>It appears you are currently mounting by subvolid.  Doing a restore in this case may not produce the expected outcome.  It is highly recommended you switch to mounting by subvolume path before proceeding!</source>
-        <translation>Il semble que vous montez actuellement par subvolid. Une restauration dans ce cas peut ne pas produire le résultat attendu. Il est fortement recommandé de passer au montage par chemin de sous-volume avant de continuer !</translation>
+        <translation>Il semble que vous montiez actuellement par subvolid. Effectuer une restauration dans ce cas peut ne pas produire le résultat attendu. Il est fortement recommandé de passer au montage par chemin de sous-volume avant de continuer !</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="564"/>
+        <location filename="../src/ui/MainWindow.cpp" line="574"></location>
         <source>Are you sure you want to restore </source>
         <translation>Voulez-vous vraiment restaurer </translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="564"/>
+        <location filename="../src/ui/MainWindow.cpp" line="574"></location>
         <source> to </source>
         <comment>as in from/to</comment>
         <translation> vers </translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="578"/>
+        <location filename="../src/ui/MainWindow.cpp" line="588"></location>
         <source>Snapshot Restore</source>
-        <translation>Restauration d&apos;instantané</translation>
+        <translation>Restauration de snapshot</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="579"/>
+        <location filename="../src/ui/MainWindow.cpp" line="589"></location>
         <source>Snapshot restoration complete.</source>
-        <translation>Restauration de l&apos;instantané terminée.</translation>
+        <translation>Restauration du snapshot terminée.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="579"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1534"/>
+        <location filename="../src/ui/MainWindow.cpp" line="589"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1544"></location>
         <source>A copy of the original subvolume has been saved as </source>
-        <translation>Une copie du sous-volume d&apos;origine a été enregistrée sous </translation>
+        <translation>Une copie du sous-volume original a été enregistrée sous </translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="580"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1535"/>
+        <location filename="../src/ui/MainWindow.cpp" line="590"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1545"></location>
         <source>Please reboot immediately</source>
         <translation>Veuillez redémarrer immédiatement</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="778"/>
+        <location filename="../src/ui/MainWindow.cpp" line="788"></location>
         <source>No config selected</source>
-        <translation>Aucune configuration sélectionnée</translation>
+        <translation>Aucune config sélectionnée</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="784"/>
+        <location filename="../src/ui/MainWindow.cpp" line="794"></location>
         <source>Please Confirm</source>
         <translation>Veuillez confirmer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="785"/>
+        <location filename="../src/ui/MainWindow.cpp" line="795"></location>
         <source>Are you sure you want to delete </source>
         <translation>Voulez-vous vraiment supprimer </translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="785"/>
+        <location filename="../src/ui/MainWindow.cpp" line="795"></location>
         <source>This action cannot be undone</source>
         <translation>Cette action est irréversible</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="816"/>
+        <location filename="../src/ui/MainWindow.cpp" line="826"></location>
         <source>No btrfs subvolumes found</source>
-        <translation>Aucun sous-volume Btrfs trouvé</translation>
+        <translation>Aucun sous-volume btrfs trouvé</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="842"/>
+        <location filename="../src/ui/MainWindow.cpp" line="852"></location>
         <source>Failed to save changes</source>
-        <translation>Échec de l&apos;enregistrement des modifications</translation>
+        <translation>Échec de l'enregistrement des modifications</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="861"/>
+        <location filename="../src/ui/MainWindow.cpp" line="871"></location>
         <source>Changes saved</source>
         <translation>Modifications enregistrées</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="874"/>
+        <location filename="../src/ui/MainWindow.cpp" line="884"></location>
         <source>Please enter a valid name</source>
         <translation>Veuillez saisir un nom valide</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="880"/>
+        <location filename="../src/ui/MainWindow.cpp" line="890"></location>
         <source>That name is already in use!</source>
         <translation>Ce nom est déjà utilisé !</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="911"/>
-        <location filename="../src/ui/MainWindow.cpp" line="969"/>
-        <location filename="../src/ui/MainWindow.cpp" line="973"/>
-        <location filename="../src/ui/MainWindow.cpp" line="994"/>
-        <location filename="../src/ui/MainWindow.cpp" line="996"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1096"/>
+        <location filename="../src/ui/MainWindow.cpp" line="921"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="979"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="983"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1004"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1006"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1106"></location>
         <source>Btrfs Assistant</source>
-        <translation>Btrfs Assistant</translation>
+        <translation>Assistant Btrfs</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="911"/>
-        <location filename="../src/ui/MainWindow.cpp" line="969"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1096"/>
+        <location filename="../src/ui/MainWindow.cpp" line="921"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="979"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1106"></location>
         <source>Changes applied</source>
         <translation>Modifications appliquées</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="946"/>
+        <location filename="../src/ui/MainWindow.cpp" line="956"></location>
         <source>Are you sure you want to set read-only flag for %1?</source>
-        <translation>Voulez-vous vraiment définir l&apos;indicateur de lecture seule pour %1 ?</translation>
+        <translation>Voulez-vous vraiment définir l'indicateur de lecture seule pour %1 ?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="948"/>
+        <location filename="../src/ui/MainWindow.cpp" line="958"></location>
         <source>Are you sure you want to clear read-only flag for %1?</source>
-        <translation>Voulez-vous vraiment effacer l&apos;indicateur de lecture seule pour %1 ?</translation>
+        <translation>Voulez-vous vraiment effacer l'indicateur de lecture seule pour %1 ?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="952"/>
+        <location filename="../src/ui/MainWindow.cpp" line="962"></location>
         <source>Are you sure you want to set read-only flag for %1 subvolumes?</source>
-        <translation>Voulez-vous vraiment définir l&apos;indicateur de lecture seule pour %1 sous-volumes ?</translation>
+        <translation>Voulez-vous vraiment définir l'indicateur de lecture seule pour %1 sous-volumes ?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="954"/>
+        <location filename="../src/ui/MainWindow.cpp" line="964"></location>
         <source>Are you sure you want to clear read-only flag for %1 subvolumes?</source>
-        <translation>Voulez-vous vraiment effacer l&apos;indicateur de lecture seule pour %1 sous-volumes ?</translation>
+        <translation>Voulez-vous vraiment effacer l'indicateur de lecture seule pour %1 sous-volumes ?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="564"/>
-        <location filename="../src/ui/MainWindow.cpp" line="957"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1143"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1348"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1520"/>
+        <location filename="../src/ui/MainWindow.cpp" line="574"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="967"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1153"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1358"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1530"></location>
         <source>Confirm</source>
         <translation>Confirmer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="149"/>
-        <location filename="../src/ui/MainWindow.cpp" line="173"/>
-        <location filename="../src/ui/MainWindow.cpp" line="725"/>
-        <location filename="../src/ui/MainWindow.cpp" line="748"/>
+        <location filename="../src/ui/MainWindow.cpp" line="149"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="173"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="735"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="758"></location>
         <source>Stop</source>
         <translation>Arrêter</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="158"/>
+        <location filename="../src/ui/MainWindow.cpp" line="158"></location>
         <source>No balance running.</source>
         <translation>Aucun équilibrage en cours.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="646"/>
+        <location filename="../src/ui/MainWindow.cpp" line="220"></location>
+        <source>none</source>
+        <translation>aucun</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="220"></location>
+        <source>daily</source>
+        <translation>quotidien</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="220"></location>
+        <source>weekly</source>
+        <translation>hebdomadaire</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="220"></location>
+        <source>monthly</source>
+        <translation>mensuel</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="656"></location>
         <source>New Config</source>
-        <translation>Nouvelle configuration</translation>
+        <translation>Nouvelle config</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="646"/>
+        <location filename="../src/ui/MainWindow.cpp" line="656"></location>
         <source>Cancel New Config</source>
-        <translation>Annuler la nouvelle configuration</translation>
+        <translation>Annuler la nouvelle config</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="974"/>
+        <location filename="../src/ui/MainWindow.cpp" line="984"></location>
         <source>Failed to apply changes to the following subvolumes:</source>
-        <translation>Échec de l&apos;application des modifications aux sous-volumes suivants :</translation>
+        <translation>Échec de l'application des modifications aux sous-volumes suivants :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="983"/>
+        <location filename="../src/ui/MainWindow.cpp" line="993"></location>
         <source>Create &amp;snapshot...</source>
-        <translation>Créer un &amp;instantané...</translation>
+        <translation>Créer un snapshot(&amp;S)...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="994"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1004"></location>
         <source>Snapshot created</source>
-        <translation>Instantané créé</translation>
+        <translation>Snapshot créé</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1001"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1011"></location>
         <source>Browse subvolume...</source>
         <translation>Parcourir le sous-volume...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1005"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1015"></location>
         <source>Restore backup...</source>
-        <translation>Restaurer la sauvegarde...</translation>
+        <translation>Restaurer une sauvegarde...</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1010"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1020"></location>
         <source>Set &amp;read-only flag</source>
-        <translation>Définir l&apos;indicateur de &amp;lecture seule</translation>
+        <translation>Définir l'indicateur &amp;lecture seule</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1016"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1026"></location>
         <source>&amp;Clear read-only flag</source>
-        <translation>&amp;Effacer l&apos;indicateur de lecture seule</translation>
+        <translation>&amp;Effacer l'indicateur de lecture seule</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1021"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1031"></location>
         <source>&amp;Delete</source>
         <translation>&amp;Supprimer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1032"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1042"></location>
         <source>Set cleanup algorithm to &amp;timeline</source>
-        <translation>Définir l&apos;algorithme de nettoyage sur &amp;chronologie</translation>
+        <translation>Définir l'algorithme de nettoyage sur &amp;timeline</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1035"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1045"></location>
         <source>Set cleanup algorithm to &amp;number</source>
-        <translation>Définir l&apos;algorithme de nettoyage sur &amp;nombre</translation>
+        <translation>Définir l'algorithme de nettoyage sur &amp;nombre</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1038"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1048"></location>
         <source>&amp;Remove cleanup algorithm</source>
-        <translation>&amp;Supprimer l&apos;algorithme de nettoyage</translation>
+        <translation>&amp;Retirer l'algorithme de nettoyage</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1041"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1051"></location>
         <source>&amp;Delete snapshot</source>
-        <translation>&amp;Supprimer l&apos;instantané</translation>
+        <translation>&amp;Supprimer le snapshot</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1044"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1054"></location>
         <source>&amp;Change description</source>
         <translation>&amp;Modifier la description</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1138"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1148"></location>
         <source>Please select a subvolume to delete first!</source>
-        <translation>Veuillez d&apos;abord sélectionner un sous-volume à supprimer !</translation>
+        <translation>Veuillez d'abord sélectionner un sous-volume à supprimer !</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1143"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1153"></location>
         <source>Are you sure you want to delete the selected subvolume(s)?</source>
         <translation>Voulez-vous vraiment supprimer le(s) sous-volume(s) sélectionné(s) ?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1161"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1171"></location>
         <source>Snapper Snapshots Found</source>
-        <translation>Instantanés Snapper trouvés</translation>
+        <translation>Snapshots Snapper trouvés</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1162"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1172"></location>
         <source>One or more of the selected subvolumes is a Snapper snapshot, would you like to remove the Snapper Metadata?(Recommended)</source>
-        <translation>Un ou plusieurs des sous-volumes sélectionnés sont des instantanés Snapper. Voulez-vous supprimer les métadonnées Snapper ? (Recommandé)</translation>
+        <translation>Un ou plusieurs des sous-volumes sélectionnés sont des snapshots Snapper, souhaitez-vous supprimer les métadonnées Snapper ? (Recommandé)</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1184"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1194"></location>
         <source>Failed to delete subvolume!</source>
         <translation>Échec de la suppression du sous-volume !</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1184"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1194"></location>
         <source>Invalid subvolume ID</source>
         <translation>ID de sous-volume invalide</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1190"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1200"></location>
         <source>You cannot delete mounted subvolume: </source>
-        <translation>Vous ne pouvez pas supprimer le sous-volume monté : </translation>
+        <translation>Vous ne pouvez pas supprimer un sous-volume monté :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1191"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1201"></location>
         <source>Please unmount the subvolume before deleting</source>
         <translation>Veuillez démonter le sous-volume avant de le supprimer</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1196"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1206"></location>
         <source>Failed to delete subvolume </source>
         <translation>Échec de la suppression du sous-volume </translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1232"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1336"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1385"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1484"/>
-        <location filename="../src/ui/MainWindow.cpp" line="1546"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1242"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1346"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1395"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1494"></location>
+        <location filename="../src/ui/MainWindow.cpp" line="1556"></location>
         <source>Nothing selected!</source>
-        <translation>Aucune sélection !</translation>
+        <translation>Rien n'est sélectionné !</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1245"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1255"></location>
         <source>Failed to restore snapshot</source>
-        <translation>Échec de la restauration de l&apos;instantané</translation>
+        <translation>Échec de la restauration du snapshot</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1274"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1284"></location>
         <source>Failed to find snapshot to browse</source>
-        <translation>Instantané à parcourir introuvable</translation>
+        <translation>Échec de la recherche du snapshot à parcourir</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1300"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1310"></location>
         <source>No config selected for snapshot</source>
-        <translation>Aucune configuration sélectionnée pour l&apos;instantané</translation>
+        <translation>Aucune config sélectionnée pour le snapshot</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1306"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1316"></location>
         <source>Enter a description for the snapshot</source>
-        <translation>Saisissez une description pour l&apos;instantané</translation>
+        <translation>Saisir une description pour le snapshot</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1306"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1316"></location>
         <source>Description:</source>
         <translation>Description :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1348"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1358"></location>
         <source>Are you sure you want to delete the selected snapshot(s)?</source>
-        <translation>Voulez-vous vraiment supprimer le(s) instantané(s) sélectionné(s) ?</translation>
+        <translation>Voulez-vous vraiment supprimer le(s) snapshot(s) sélectionné(s) ?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1357"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1367"></location>
         <source>Cannot delete snapshot</source>
-        <translation>Impossible de supprimer l&apos;instantané</translation>
+        <translation>Impossible de supprimer le snapshot</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1409"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1419"></location>
         <source>Change description</source>
         <translation>Modifier la description</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1410"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1420"></location>
         <source>Changing &lt;u&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/u&gt; snapshot(s) &lt;br&gt;&lt;br&gt;Enter a new description for the snapshot(s):</source>
-        <translation>Modification de &lt;u&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/u&gt; instantané(s)&lt;br&gt;&lt;br&gt;Saisissez une nouvelle description pour le(s) instantané(s) :</translation>
+        <translation>Modification de &lt;u&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/u&gt; snapshot(s) &lt;br&gt;&lt;br&gt;Saisissez une nouvelle description pour le(s) snapshot(s) :</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1421"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1431"></location>
         <source>Cannot change description of snapshot</source>
-        <translation>Impossible de modifier la description de l&apos;instantané</translation>
+        <translation>Impossible de modifier la description du snapshot</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1493"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1503"></location>
         <source>Please select a single backup subvolume to restore!</source>
         <translation>Veuillez sélectionner un seul sous-volume de sauvegarde à restaurer !</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1504"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1514"></location>
         <source>The subvolume you selected is not a Btrfs Assistant backup</source>
-        <translation>Le sous-volume que vous avez sélectionné n&apos;est pas une sauvegarde de Btrfs Assistant</translation>
+        <translation>Le sous-volume que vous avez sélectionné n'est pas une sauvegarde de l'Assistant Btrfs</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1515"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1525"></location>
         <source>The subvolume is missing!</source>
-        <translation>Le sous-volume est introuvable !</translation>
+        <translation>Le sous-volume est manquant !</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1520"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1530"></location>
         <source>Are you sure you want to restore the selected backup?</source>
         <translation>Voulez-vous vraiment restaurer la sauvegarde sélectionnée ?</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1533"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1543"></location>
         <source>Backup Restore</source>
         <translation>Restauration de sauvegarde</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1534"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1544"></location>
         <source>Backup restoration complete.</source>
         <translation>Restauration de la sauvegarde terminée.</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1562"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1572"></location>
         <source>Failed to set cleanup algorithm for snapshot %1</source>
-        <translation>Échec de la définition de l&apos;algorithme de nettoyage pour l&apos;instantané %1</translation>
+        <translation>Échec de la définition de l'algorithme de nettoyage pour le snapshot %1</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1581"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1591"></location>
         <source>Disable Btrfs Quotas</source>
         <translation>Désactiver les quotas Btrfs</translation>
     </message>
     <message>
-        <location filename="../src/ui/MainWindow.cpp" line="1583"/>
+        <location filename="../src/ui/MainWindow.cpp" line="1593"></location>
         <source>Enable Btrfs Quotas</source>
         <translation>Activer les quotas Btrfs</translation>
     </message>
@@ -1259,27 +1279,27 @@
 <context>
     <name>RestoreConfirmDialog</name>
     <message>
-        <location filename="../src/ui/RestoreConfirmDialog.ui" line="14"/>
+        <location filename="../src/ui/RestoreConfirmDialog.ui" line="14"></location>
         <source>Dialog</source>
         <translation>Boîte de dialogue</translation>
     </message>
     <message>
-        <location filename="../src/ui/RestoreConfirmDialog.ui" line="42"/>
+        <location filename="../src/ui/RestoreConfirmDialog.ui" line="42"></location>
         <source>Name for saved backup(Optional): </source>
-        <translation>Nom de la sauvegarde enregistrée (facultatif) : </translation>
+        <translation>Nom de la sauvegarde enregistrée (facultatif) :</translation>
     </message>
     <message>
-        <location filename="../src/ui/RestoreConfirmDialog.ui" line="83"/>
+        <location filename="../src/ui/RestoreConfirmDialog.ui" line="83"></location>
         <source>Yes</source>
         <translation>Oui</translation>
     </message>
     <message>
-        <location filename="../src/ui/RestoreConfirmDialog.ui" line="90"/>
+        <location filename="../src/ui/RestoreConfirmDialog.ui" line="90"></location>
         <source>No</source>
         <translation>Non</translation>
     </message>
     <message>
-        <location filename="../src/ui/RestoreConfirmDialog.ui" line="93"/>
+        <location filename="../src/ui/RestoreConfirmDialog.ui" line="93"></location>
         <source>Ctrl+R</source>
         <translation>Ctrl+R</translation>
     </message>
@@ -1287,61 +1307,61 @@
 <context>
     <name>Snapper</name>
     <message>
-        <location filename="../src/util/Snapper.cpp" line="359"/>
+        <location filename="../src/util/Snapper.cpp" line="359"></location>
         <source>Failed to reset ownership of restored file</source>
-        <translation>Échec de la réinitialisation du propriétaire du fichier restauré</translation>
+        <translation>Échec de la réinitialisation de la propriété du fichier restauré</translation>
     </message>
     <message>
-        <location filename="../src/util/Snapper.cpp" line="388"/>
+        <location filename="../src/util/Snapper.cpp" line="388"></location>
         <source>Failed to set config</source>
-        <translation>Échec de la définition de la configuration</translation>
+        <translation>Échec de la définition de la config</translation>
     </message>
 </context>
 <context>
     <name>SnapshotSubvolumeDialog</name>
     <message>
-        <location filename="../src/ui/SnapshotSubvolumeDialog.ui" line="14"/>
+        <location filename="../src/ui/SnapshotSubvolumeDialog.ui" line="14"></location>
         <source>Create a snapshot</source>
-        <translation>Créer un instantané</translation>
+        <translation>Créer un snapshot</translation>
     </message>
     <message>
-        <location filename="../src/ui/SnapshotSubvolumeDialog.ui" line="20"/>
+        <location filename="../src/ui/SnapshotSubvolumeDialog.ui" line="20"></location>
         <source>Destination:</source>
         <translation>Destination :</translation>
     </message>
     <message>
-        <location filename="../src/ui/SnapshotSubvolumeDialog.ui" line="29"/>
+        <location filename="../src/ui/SnapshotSubvolumeDialog.ui" line="29"></location>
         <source>A filesystem path</source>
         <translation>Un chemin de système de fichiers</translation>
     </message>
     <message>
-        <location filename="../src/ui/SnapshotSubvolumeDialog.ui" line="42"/>
+        <location filename="../src/ui/SnapshotSubvolumeDialog.ui" line="42"></location>
         <source>Browse...</source>
         <translation>Parcourir...</translation>
     </message>
     <message>
-        <location filename="../src/ui/SnapshotSubvolumeDialog.ui" line="51"/>
+        <location filename="../src/ui/SnapshotSubvolumeDialog.ui" line="51"></location>
         <source>Read-only</source>
         <translation>Lecture seule</translation>
     </message>
     <message>
-        <location filename="../src/ui/SnapshotSubvolumeDialog.cpp" line="15"/>
+        <location filename="../src/ui/SnapshotSubvolumeDialog.cpp" line="15"></location>
         <source>Select a parent directory</source>
         <translation>Sélectionner un répertoire parent</translation>
     </message>
     <message>
-        <location filename="../src/ui/SnapshotSubvolumeDialog.cpp" line="24"/>
-        <location filename="../src/ui/SnapshotSubvolumeDialog.cpp" line="30"/>
+        <location filename="../src/ui/SnapshotSubvolumeDialog.cpp" line="24"></location>
+        <location filename="../src/ui/SnapshotSubvolumeDialog.cpp" line="30"></location>
         <source>Btrfs Assistant</source>
-        <translation>Btrfs Assistant</translation>
+        <translation>Assistant Btrfs</translation>
     </message>
     <message>
-        <location filename="../src/ui/SnapshotSubvolumeDialog.cpp" line="24"/>
+        <location filename="../src/ui/SnapshotSubvolumeDialog.cpp" line="24"></location>
         <source>The destination path cannot be empty</source>
         <translation>Le chemin de destination ne peut pas être vide</translation>
     </message>
     <message>
-        <location filename="../src/ui/SnapshotSubvolumeDialog.cpp" line="31"/>
+        <location filename="../src/ui/SnapshotSubvolumeDialog.cpp" line="31"></location>
         <source>You entered a relative path. Do you want to continue with the resulting absolute path: %1?</source>
         <translation>Vous avez saisi un chemin relatif. Voulez-vous continuer avec le chemin absolu résultant : %1 ?</translation>
     </message>
@@ -1349,62 +1369,62 @@
 <context>
     <name>SubvolumeModel</name>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="16"/>
+        <location filename="../src/model/SubvolModel.cpp" line="16"></location>
         <source>Parent ID</source>
         <translation>ID parent</translation>
     </message>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="18"/>
+        <location filename="../src/model/SubvolModel.cpp" line="18"></location>
         <source>Subvol ID</source>
-        <translation>ID du sous-volume</translation>
+        <translation>ID de sous-volume</translation>
     </message>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="20"/>
+        <location filename="../src/model/SubvolModel.cpp" line="20"></location>
         <source>Subvolume</source>
         <translation>Sous-volume</translation>
     </message>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="22"/>
+        <location filename="../src/model/SubvolModel.cpp" line="22"></location>
         <source>UUID</source>
         <translation>UUID</translation>
     </message>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="24"/>
+        <location filename="../src/model/SubvolModel.cpp" line="24"></location>
         <source>Parent UUID</source>
         <translation>UUID parent</translation>
     </message>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="26"/>
+        <location filename="../src/model/SubvolModel.cpp" line="26"></location>
         <source>Received UUID</source>
         <translation>UUID reçu</translation>
     </message>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="28"/>
+        <location filename="../src/model/SubvolModel.cpp" line="28"></location>
         <source>Created</source>
         <translation>Créé le</translation>
     </message>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="30"/>
+        <location filename="../src/model/SubvolModel.cpp" line="30"></location>
         <source>Generation</source>
         <translation>Génération</translation>
     </message>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="32"/>
+        <location filename="../src/model/SubvolModel.cpp" line="32"></location>
         <source>Read-only</source>
         <translation>Lecture seule</translation>
     </message>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="34"/>
+        <location filename="../src/model/SubvolModel.cpp" line="34"></location>
         <source>Size</source>
         <translation>Taille</translation>
     </message>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="36"/>
+        <location filename="../src/model/SubvolModel.cpp" line="36"></location>
         <source>Filesystem</source>
         <translation>Système de fichiers</translation>
     </message>
     <message>
-        <location filename="../src/model/SubvolModel.cpp" line="38"/>
+        <location filename="../src/model/SubvolModel.cpp" line="38"></location>
         <source>Exclusive</source>
         <translation>Exclusif</translation>
     </message>
@@ -1412,39 +1432,39 @@
 <context>
     <name>main</name>
     <message>
-        <location filename="../src/main.cpp" line="15"/>
+        <location filename="../src/main.cpp" line="15"></location>
         <source>Btrfs Assistant</source>
-        <translation>Btrfs Assistant</translation>
+        <translation>Assistant Btrfs</translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="22"/>
+        <location filename="../src/main.cpp" line="22"></location>
         <source>An application for managing Btrfs and Snapper</source>
         <translation>Une application pour gérer Btrfs et Snapper</translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="28"/>
+        <location filename="../src/main.cpp" line="28"></location>
         <source>List snapshots</source>
-        <translation>Lister les instantanés</translation>
+        <translation>Lister les snapshots</translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="33"/>
+        <location filename="../src/main.cpp" line="33"></location>
         <source>Restore the given snapshot</source>
-        <translation>Restaurer l&apos;instantané donné</translation>
+        <translation>Restaurer le snapshot donné</translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="34"/>
+        <location filename="../src/main.cpp" line="34"></location>
         <source>index of snapshot</source>
-        <translation>index de l&apos;instantané</translation>
+        <translation>index du snapshot</translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="42"/>
+        <location filename="../src/main.cpp" line="42"></location>
         <source>Error: No Btrfs filesystems found</source>
-        <translation>Erreur : Aucun système de fichiers Btrfs trouvé</translation>
+        <translation>Erreur : aucun système de fichiers Btrfs trouvé</translation>
     </message>
     <message>
-        <location filename="../src/main.cpp" line="64"/>
+        <location filename="../src/main.cpp" line="64"></location>
         <source>Warning: No translations available</source>
-        <translation>Avertissement : Aucune traduction disponible</translation>
+        <translation>Avertissement : aucune traduction disponible</translation>
     </message>
 </context>
 </TS>
