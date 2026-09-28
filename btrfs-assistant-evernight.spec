@@ -1,6 +1,6 @@
 Name:           btrfs-assistant-evernight
 Version:        2.3.2
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        GUI management tool for Btrfs and Snapper
 
 License:        GPL-3.0-or-later
@@ -21,6 +21,7 @@ Requires:       btrfs-progs
 Requires:       polkit
 Requires:       qt6-qtbase-gui
 Requires:       libdnf5-plugin-actions
+Requires:       grub-btrfs
 
 Recommends:     btrfsmaintenance
 
@@ -81,6 +82,9 @@ if [ $1 -eq 0 ] ; then
 fi
 
 %changelog
+* Mon Sep 28 2026 Evernight Vista Team <13278297951@sina.cn> - 2.3.2-3
+- Add grub-btrfs requires
+
 * Sat Sep 26 2026 Evernight Vista Team <13278297951@sina.cn> - 2.3.2-2
 - Fix Polkit Action File Translate BUG
 
